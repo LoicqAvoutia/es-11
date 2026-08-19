@@ -8,7 +8,6 @@ export const Loginform = () =>{
     function handleSubmit(event) {
         event.preventDefault();
         user.login(nome);
-        console.log(user.user)
     }
 
     return(
