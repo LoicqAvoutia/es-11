@@ -12,7 +12,7 @@ export const Loginform = () =>{
 
     return(
         <>
-            <form action="" onSubmit={handleSubmit}>
+            <form action="" onSubmit={handleSubmit} style={user.user ? {display:"none"} : null}>
                 <input type="text" placeholder='nome' onChange={e=>setNome(e.target.value)}/>
                 <button type='submit'>accedi</button>
             </form>
